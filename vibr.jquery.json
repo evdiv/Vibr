@@ -1,0 +1,30 @@
+{
+    "name": "vibr",
+    "title": "Vibr",
+    "description": "A jQuery plugin for creating vibration effect",
+    "keywords":
+        [
+            "vibration"
+        ],
+    "version": "1.0.0",
+    "author":
+    {
+        "name": "Evgeny Dvoynishnikov",
+        "url": "http://fdata.org"
+    },
+    "licenses":
+        [
+            {
+                "type": "MIT",
+                "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+            }
+        ],
+    "bugs": "https://github.com/evdiv/vibr/issues",
+    "homepage": "https://github.com/evdiv/vibr",
+    "docs": "https://github.com/evdiv/vibr",
+    "download": "https://github.com/evdiv/vibr/archive/1.0.0.zip",
+    "dependencies":
+    {
+        "jquery": ">=1.5"
+    }
+}

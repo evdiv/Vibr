@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vibr Demo</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery.vibr.js"></script>
+    <style>
+        body {
+            width: 800px;
+            margin: 10px auto;
+        }
+        img {
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+<div class="img1"><img src="img/22699289_s.jpg" alt="img" /></div>
+<div class="img2"><img src="img/22699289_s.jpg" alt="img" /></div>
+<div class="img3"><img src="img/22699289_s.jpg" alt="img" /></div>
+<div class="img4"><img src="img/22699289_s.jpg" alt="img" /></div>
+<p>Copyright: <a href='http://www.123rf.com/profile_kasahasa'>kasahasa / 123RF Stock Photo</a></p>
+
+<script>
+
+    $('div.img1').imageVibr();
+
+    $('div.img2').imageVibr({
+        h_spread: 8,
+        v_spread: 1,
+        speed: 50,
+        delay: 3000
+    });
+
+</script>
+</body>
+</html>
